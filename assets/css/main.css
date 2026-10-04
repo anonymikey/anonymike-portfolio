@@ -8420,32 +8420,31 @@ body.tw-magic-cursor #magic-cursor {
   border-radius: 50%;
 }
 .banner-three-man {
-  inset-block-end: 27%;
-  width: min(52vw, 760px);
+  inset-block-end: 0;
+  width: min(92vw, 980px);
   display: flex;
   justify-content: center;
   pointer-events: none;
+  z-index: 2;
 }
 .banner-three-man img {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 72vh;
+  max-height: none;
   object-fit: contain;
   object-position: center bottom;
   filter: drop-shadow(0 24px 28px rgba(0, 0, 0, 0.14));
 }
 @media screen and (max-width: 991px) {
   .banner-three-man {
-    width: min(64vw, 620px);
+    width: min(98vw, 820px);
   }
 }
 @media screen and (max-width: 575px) {
   .banner-three-man {
-    width: min(82vw, 420px);
-  }
-  .banner-three-man img {
-    max-height: 58vh;
+    width: min(118vw, 600px);
+    inset-block-end: 0;
   }
 }
 @media screen and (max-width: 575px) {
