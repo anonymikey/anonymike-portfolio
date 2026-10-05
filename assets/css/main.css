@@ -8420,7 +8420,7 @@ body.tw-magic-cursor #magic-cursor {
   border-radius: 50%;
 }
 .banner-three-man {
-  inset-block-end: 0;
+  inset-block-end: 24px;
   width: min(78vw, 760px);
   display: flex;
   justify-content: center;
