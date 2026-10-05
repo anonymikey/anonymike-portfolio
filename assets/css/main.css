@@ -8421,7 +8421,7 @@ body.tw-magic-cursor #magic-cursor {
 }
 .banner-three-man {
   inset-block-end: 0;
-  width: min(92vw, 980px);
+  width: min(78vw, 760px);
   display: flex;
   justify-content: center;
   pointer-events: none;
@@ -8438,7 +8438,7 @@ body.tw-magic-cursor #magic-cursor {
 }
 @media screen and (max-width: 991px) {
   .banner-three-man {
-    width: min(98vw, 820px);
+  width: min(90vw, 680px);
   }
 }
 @media screen and (max-width: 575px) {
