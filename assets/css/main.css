@@ -5879,6 +5879,15 @@ input:focus-visible {
 .header-three {
   padding-block: 16px;
 }
+.header-three-wordmark {
+  display: inline-block;
+  color: #0b1018;
+  font-family: var(--heading-font-family);
+  font-size: clamp(1.9rem, 3vw, 2.7rem);
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  line-height: 1;
+}
 .header-three-logo {
   box-shadow:
     0 4px 4px 0 rgba(0, 0, 0, 0.25),
@@ -8426,6 +8435,10 @@ body.tw-magic-cursor #magic-cursor {
   justify-content: center;
   pointer-events: none;
   z-index: 2;
+}
+.banner-three-title {
+  position: relative;
+  z-index: 3;
 }
 .banner-three-man img {
   display: block;
