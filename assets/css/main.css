@@ -8440,6 +8440,18 @@ body.tw-magic-cursor #magic-cursor {
   position: relative;
   z-index: 1;
 }
+.banner-three-center {
+  position: relative;
+  z-index: 2;
+}
+.banner-three-center-title {
+  position: relative;
+  z-index: 4;
+}
+.banner-three-button {
+  position: relative;
+  z-index: 2;
+}
 .banner-three-man img {
   display: block;
   width: 100%;
