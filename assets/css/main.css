@@ -8434,11 +8434,11 @@ body.tw-magic-cursor #magic-cursor {
   display: flex;
   justify-content: center;
   pointer-events: none;
-  z-index: 2;
+  z-index: 3;
 }
 .banner-three-title {
   position: relative;
-  z-index: 3;
+  z-index: 1;
 }
 .banner-three-man img {
   display: block;
